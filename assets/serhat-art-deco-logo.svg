@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Dr. Serhat — Art Deco Rays">
+  <defs>
+    <path id="c2-ring" d="M 200,200 m -160,0 a 160,160 0 1,1 320,0 a 160,160 0 1,1 -320,0"/>
+    <path id="c2-top-motto" d="M 48,200 A 152,152 0 0,1 352,200"/>
+    <path id="c2-bottom-motto" d="M 48,200 A 152,152 0 0,0 352,200"/>
+    <radialGradient id="c2-bg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0F2A52"/>
+      <stop offset="100%" stop-color="#0B2545"/>
+    </radialGradient>
+    <radialGradient id="c2-egg" cx="45%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFFDF6"/>
+      <stop offset="60%" stop-color="#F5F1E8"/>
+      <stop offset="100%" stop-color="#D6CCB6"/>
+    </radialGradient>
+    <!-- Clip the rays to a band around the upper inner field -->
+    <clipPath id="c2-rayclip">
+      <path d="M 200,200 m -130,0 a 130,130 0 1,1 260,0 L 460 200 L 460 -60 L -60 -60 L -60 200 Z"/>
+    </clipPath>
+    <style>
+      .ring-text { font-family: 'Bodoni 72 Smallcaps', 'Didot', 'Cormorant Garamond', Georgia, serif; }
+      .serhat-wordmark {
+        font-family: 'Avenir Next Condensed', 'HelveticaNeue-CondensedBold', 'Arial Narrow', 'Gill Sans', sans-serif;
+        font-stretch: condensed;
+      }
+    </style>
+  </defs>
+
+  <circle cx="200" cy="200" r="195" fill="url(#c2-bg)"/>
+  <circle cx="200" cy="200" r="190" fill="none" stroke="#D4A24C" stroke-width="1"/>
+  <circle cx="200" cy="200" r="174" fill="none" stroke="#D4A24C" stroke-width="0.5" opacity="0.6"/>
+
+  <!-- Readable inner-perimeter motto for small screens -->
+  <g class="ring-text readable-motto" font-size="14.6" font-weight="850" letter-spacing="0.85" fill="#FFF8E8" stroke="#061B35" stroke-width="0.72" paint-order="stroke fill" text-anchor="middle">
+    <text>
+      <textPath href="#c2-top-motto" startOffset="50%" textLength="246" lengthAdjust="spacing">INIZIA CON LA NASCITA</textPath>
+    </text>
+    <text>
+      <textPath href="#c2-bottom-motto" startOffset="50%" textLength="246" lengthAdjust="spacing">FINISCE CON LA MORTE</textPath>
+    </text>
+  </g>
+
+  <!-- Inner field outline -->
+  <circle cx="200" cy="200" r="135" fill="none" stroke="#D4A24C" stroke-width="0.9"/>
+  <circle cx="200" cy="200" r="130" fill="none" stroke="#D4A24C" stroke-width="0.4" opacity="0.55"/>
+
+  <!-- Deco rays radiating from egg-center, only top hemisphere, clipped to inner field -->
+  <g clip-path="url(#c2-rayclip)">
+    <g stroke="#D4A24C" stroke-width="0.7" opacity="0.55" transform="translate(0 0)">
+      <!-- center at (200,170) where egg sits -->
+      <line x1="200" y1="170" x2="200" y2="56"/>
+      <line x1="200" y1="170" x2="244" y2="62"/>
+      <line x1="200" y1="170" x2="156" y2="62"/>
+      <line x1="200" y1="170" x2="284" y2="86"/>
+      <line x1="200" y1="170" x2="116" y2="86"/>
+      <line x1="200" y1="170" x2="316" y2="124"/>
+      <line x1="200" y1="170" x2="84" y2="124"/>
+      <line x1="200" y1="170" x2="338" y2="170"/>
+      <line x1="200" y1="170" x2="62" y2="170"/>
+    </g>
+  </g>
+
+  <!-- Stepped deco arches above ovum -->
+  <g fill="none" stroke="#D4A24C" stroke-width="0.7" opacity="0.85">
+    <path d="M 130,170 A 70,70 0 0,1 270,170"/>
+    <path d="M 142,170 A 58,58 0 0,1 258,170" opacity="0.7"/>
+    <path d="M 154,170 A 46,46 0 0,1 246,170" opacity="0.5"/>
+  </g>
+
+  <!-- Concentric ovum -->
+  <g>
+    <circle cx="200" cy="170" r="34" fill="none" stroke="#2EBFB0" stroke-width="0.6" opacity="0.55"/>
+    <circle cx="200" cy="170" r="28" fill="none" stroke="#2EBFB0" stroke-width="0.5" opacity="0.45"/>
+    <circle cx="200" cy="170" r="22" fill="url(#c2-egg)"/>
+    <circle cx="200" cy="170" r="22" fill="none" stroke="#D4A24C" stroke-width="0.6"/>
+    <ellipse cx="194" cy="163" rx="5" ry="2.4" fill="#FFFFFF" opacity="0.5"/>
+  </g>
+
+  <!-- Subtle masculine trace: a single thin tangent arc that gracefully meets the ovum from below -->
+  <path d="M 132,236 Q 168,212 178,188" fill="none" stroke="#2EBFB0" stroke-width="0.7" opacity="0.45"/>
+  <circle cx="178" cy="188" r="1.1" fill="#2EBFB0" opacity="0.6"/>
+
+  <!-- Wordmark plaque area with horizontal band -->
+  <g stroke="#D4A24C" stroke-width="0.5" opacity="0.6">
+    <line x1="86" y1="218" x2="314" y2="218"/>
+    <line x1="86" y1="276" x2="314" y2="276"/>
+  </g>
+
+  <!-- Wordmark: upright, fresh, visible, squeezed-modern fashion direction -->
+  <text x="200" y="252" text-anchor="middle"
+        class="serhat-wordmark"
+        font-size="37" font-style="normal" font-weight="700"
+        fill="#F5F1E8" letter-spacing="2.2"
+        transform="translate(200 252) scale(0.82 1) translate(-200 -252)">DR SERHAT</text>
+
+  <!-- Tagline -->
+  <text x="200" y="296" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="8.2" letter-spacing="5" fill="#D4A24C">JİNEKOLOJİ</text>
+
+  <!-- Top & bottom marker dots -->
+  <circle cx="200" cy="40" r="2.2" fill="#D4A24C"/>
+  <circle cx="200" cy="360" r="2.2" fill="#D4A24C"/>
+</svg>

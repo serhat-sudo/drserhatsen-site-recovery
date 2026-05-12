@@ -1,0 +1,247 @@
+{
+  "pages": [
+    {
+      "slug": "yumurtalik-kisti",
+      "status": "complete_from_prompt",
+      "seo_title": "Yumurtalık Kisti | Dr. Serhat Şen — İstanbul Jinekoloji",
+      "meta_description": "Yumurtalık kisti nedir, nasıl tedavi edilir? Dr. Serhat Şen ile İstanbul'da laparoskopik kist tedavisi ve ultrason değerlendirmesi hakkında bilgi alın.",
+      "og_title": "Yumurtalık Kisti — Dr. Serhat Şen",
+      "og_description": "Fonksiyonel kistlerden endometrioma ve dermoid kistlere kadar yumurtalık kisti türleri, belirtileri ve tedavi seçenekleri hakkında uzman bilgisi.",
+      "h1": "Yumurtalık Kisti",
+      "canonical": "https://drserhatsen.com/yumurtalik-kisti",
+      "sections": [
+        {
+          "heading": "Yumurtalık Kisti Nedir?",
+          "body_markdown": "Yumurtalık kistleri, yumurtalıkların içinde veya üzerinde oluşan sıvı dolu keselerdir. Pek çok kadında hayatının bir döneminde görülür; büyük çoğunluğu kendiliğinden geçer ve belirti vermez.\n\nYumurtalık kistlerinin en sık görülen türleri şunlardır:\n\n- **Fonksiyonel kistler** (foliküler kist, korpus luteum kisti): Adet döngüsüyle ilişkili olup genellikle birkaç haftada kendiliğinden kaybolur.\n- **Dermoid kistler (teratom)**: Doğumsal kökenli, yavaş büyüyen; saç, yağ veya kıkırdak gibi doku içerebilir.\n- **Endometrioma (çikolata kisti)**: Endometriozis hastalığının yumurtalıktaki yansıması; doğurganlığı etkileyebilir.\n- **Seröz ve müsinöz kistler**: İleri yaşlarda daha dikkatli izlenmesi gereken, zaman zaman büyük boyutlara ulaşabilen kistler."
+        },
+        {
+          "heading": "Belirtiler ve Şikayetler",
+          "body_markdown": "Çoğu yumurtalık kisti belirti vermez; rutin ultrasonla tesadüfen saptanır. Ancak bazı durumlarda:\n\n- Karın alt bölgesinde baskı hissi veya ağrı\n- Adet düzensizliği\n- Cinsel ilişki sırasında ağrı\n- Sık idrara çıkma ihtiyacı\n- Ani, şiddetli karın ağrısı (kist rüptürü veya torsiyon — acil durum)\n\nŞiddetli karın ağrısı, bulantı-kusma ve ateş bir arada ise en yakın acil servise başvurulmalıdır."
+        },
+        {
+          "heading": "Tanı: Ultrason Değerlendirmesi",
+          "body_markdown": "Yumurtalık kistlerinin tanısında transvajinal ultrasonografi birincil yöntemdir. Kistin boyutu, içeriği (sıvı, katı, karma), duvar kalınlığı ve kanlanması değerlendirilir.\n\nGerektiğinde MRI veya CA-125, HE4 gibi tümör belirteçleri ek bilgi sağlar. Tek başına yüksek CA-125 kanser anlamına gelmez; birçok iyi huylu durum da değeri yükseltebilir."
+        },
+        {
+          "heading": "Tedavi Seçenekleri",
+          "body_markdown": "Tedavi kistin türüne, boyutuna, hastanın yaşına ve semptomlarına göre belirlenir:\n\n**İzlem:** Küçük, fonksiyonel kistlerde 6–8 haftalık ultrason takibi yeterlidir.\n\n**Laparoskopik kistektomi:** Kist, yumurtalık dokusunu koruyarak laparoskopi (kapalı cerrahi) ile çıkarılır. Kısa hastane yatışı, hızlı iyileşme süresi.\n\n**Laparoskopik ooforektomi:** Çok büyük, şüpheli veya tekrarlayan kistlerde yumurtalığın alınması gerekebilir; bu karar bireysel olarak değerlendirilir.\n\nEndometrioma tedavisinde cerrahi sonrası tekrar riski dikkate alınarak hormon tedavisi planlanabilir."
+        },
+        {
+          "heading": "Yumurtalık Kisti mi Kötü Huylu mu?",
+          "body_markdown": "Üreme çağındaki kadınlarda yumurtalık kistlerinin büyük çoğunluğu iyi huyludur. Ultrason özellikleri, yaş ve tümör belirteçleri bir arada değerlendirilerek risk sınıflandırması yapılır.\n\nŞüpheli bulgu saptandığında ileri görüntüleme ve deneyimli jinekolojik onkoloji değerlendirmesi önerilir. Erken evrede yakalanan malign lezyonlarda tedavi başarısı belirgin şekilde artar."
+        },
+        {
+          "heading": "Ne Zaman Doktora Başvurulmalı?",
+          "body_markdown": "Aşağıdaki durumlardan herhangi birinde ertelemeden muayeneye gelin:\n\n- Kasıkta hissedilen dolgunluk veya sürekli ağrı\n- İki adet arasında lekelenme veya düzensizlik\n- Kist tanısı konulmuşsa ve kontrol randevunuz geçtiyse\n- Ani şiddetli karın ağrısı (acil)\n\nAdet düzensizliği veya ultrason bulgusu olmasa bile yıllık jinekolojik muayene bu tip kistlerin erken fark edilmesini sağlar."
+        }
+      ],
+      "internal_links": [
+        {
+          "anchor": "Endometriozis hakkında bilgi",
+          "target": "/endometriozis"
+        },
+        {
+          "anchor": "Jinekolojik onkoloji değerlendirmesi",
+          "target": "/jinekolojik-onkoloji"
+        },
+        {
+          "anchor": "Randevu ve iletişim",
+          "target": "/iletisim"
+        },
+        {
+          "anchor": "Dr. Serhat Şen hakkında",
+          "target": "/hakkimda"
+        }
+      ],
+      "schema_jsonld": {
+        "@context": "https://schema.org",
+        "@type": "MedicalWebPage",
+        "@id": "https://drserhatsen.com/yumurtalik-kisti#webpage",
+        "url": "https://drserhatsen.com/yumurtalik-kisti",
+        "name": "Yumurtalık Kisti | Dr. Serhat Şen — İstanbul Jinekoloji",
+        "description": "Yumurtalık kisti nedir, nasıl tedavi edilir? Dr. Serhat Şen ile İstanbul'da laparoskopik kist tedavisi ve ultrason değerlendirmesi hakkında bilgi alın.",
+        "inLanguage": "tr-TR",
+        "isPartOf": {
+          "@id": "https://drserhatsen.com/#website"
+        },
+        "about": {
+          "@type": "MedicalCondition",
+          "name": "Yumurtalık Kisti",
+          "alternateName": "Over kisti",
+          "associatedAnatomy": {
+            "@type": "AnatomicalStructure",
+            "name": "Yumurtalık (over)"
+          },
+          "possibleTreatment": [
+            {
+              "@type": "MedicalTherapy",
+              "name": "Laparoskopik kistektomi"
+            },
+            {
+              "@type": "MedicalTherapy",
+              "name": "Ultrason ile izlem"
+            }
+          ]
+        },
+        "author": {
+          "@id": "https://drserhatsen.com/#physician"
+        },
+        "dateModified": "2026-05-11",
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Ana Sayfa",
+              "item": "https://drserhatsen.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Yumurtalık Kisti",
+              "item": "https://drserhatsen.com/yumurtalik-kisti"
+            }
+          ]
+        }
+      },
+      "implementation_notes": [
+        "Wix'te yeni bir Blank Page oluştur; Page URL'ini /yumurtalik-kisti olarak ayarla.",
+        "SEO panelinde: Title = 'Yumurtalık Kisti | Dr. Serhat Şen — İstanbul Jinekoloji', Description = meta_description değeri.",
+        "OG Image olarak mevcut share card görseli (static.wixstatic.com/media/9053c2_7b58e0fadcbe4d56b91dda669a6a08f8~mv2.png) kullanılabilir.",
+        "Schema JSON-LD'yi Wix Advanced SEO > Head Tags alanına <script type='application/ld+json'> bloğu olarak ekle.",
+        "İç linkler (/endometriozis, /jinekolojik-onkoloji) henüz yayında olmayan sayfalara bağlandığından şimdilik /iletisim'e yönlendirilebilir veya sayfa oluşturulana kadar bağlantısız metin olarak bırakılabilir.",
+        "Son güncelleme tarihi sayfada görünür şekilde yer almalı (YMYL/E-E-A-T gereği).",
+        "Tıbbi uyarı notu: Her bölüm sonunda değil, sayfa altında footer seviyesinde genel bir bilgilendirme notu ekle."
+      ]
+    },
+    {
+      "slug": "yazilar",
+      "status": "complete_from_prompt",
+      "seo_title": "Yazılarım | Dr. Serhat Şen Substack Bülteni",
+      "meta_description": "Kadın sağlığı, jinekolojik onkoloji ve kanıta dayalı tıp üzerine yazılarımı Substack bültenimde paylaşıyorum. Yeni yazılar için abone olabilirsiniz.",
+      "og_title": "Yazılarım — Dr. Serhat Şen",
+      "og_description": "Kadın sağlığı, jinekolojik onkoloji ve kanıta dayalı tıp üzerine yazılar. Substack bültenine abone olun.",
+      "h1": "Yazılarım",
+      "canonical": "https://drserhatsen.com/yazilar",
+      "sections": [
+        {
+          "heading": null,
+          "body_markdown": "**Düşünen Hekim** — Bu bülten, tıbbi bilgiyi yalnızca hastayla paylaşmak için değil; hekimin nasıl düşündüğünü, neyi neden seçtiğini ve belirsizlikle nasıl başa çıktığını aktarmak için yazılıyor. Kanıta dayalı tıbbın sınırları, klinik karar süreçleri ve kadın sağlığında sık sorulan ama az yanıt bulan sorular burada ele alınıyor.\n\nYazılarımı **[Substack bültenimde](https://drserhatsen.substack.com)** paylaşıyorum. Yeni yazılardan haberdar olmak için abone olabilirsiniz — ücretsiz."
+        },
+        {
+          "heading": "Bültende Neler Var?",
+          "body_markdown": "- Jinekolojik onkoloji ve cerrahi kararlar üzerine klinik yazılar\n- Kadın sağlığında araştırma bulgularının pratik yansımaları\n- Hasta sorularından doğan, kanıta dayalı açıklamalar\n- HPV, endometriozis, miyom ve jinekolojik kanserler hakkında derinlemesine değerlendirmeler\n- Hekimin perspektifinden sağlık sistemi ve karar alma süreçleri"
+        },
+        {
+          "heading": "Neden Substack?",
+          "body_markdown": "Substack, yazıların doğrudan okuyucuya ulaştığı, reklam algoritmasına bağımlı olmayan bir platform. Sosyal medyada kısa ve hızlı içerik yerine, burada uzun ve kaynaklı yazılar tercih ediyorum. Her yazı düşünülerek, zaman alarak yazılıyor.\n\nBülten ücretsizdir. Abone olmanız için kişisel bilgilerinizin ötesinde bir şey istemez; istediğiniz zaman aboneliği iptal edebilirsiniz."
+        },
+        {
+          "heading": null,
+          "body_markdown": "**[Bültene Abone Ol →](https://drserhatsen.substack.com/subscribe)**\n\n**[Tüm Yazıları Oku →](https://drserhatsen.substack.com/archive)**"
+        }
+      ],
+      "internal_links": [
+        {
+          "anchor": "Dr. Serhat Şen hakkında",
+          "target": "/hakkimda"
+        },
+        {
+          "anchor": "İkinci Görüş Konsültasyonu",
+          "target": "/konsultasyon/ikinci-gorus"
+        },
+        {
+          "anchor": "İletişim",
+          "target": "/iletisim"
+        }
+      ],
+      "external_links": [
+        {
+          "anchor": "Substack bültenimde",
+          "url": "https://drserhatsen.substack.com",
+          "rel": "noopener"
+        },
+        {
+          "anchor": "Bültene Abone Ol →",
+          "url": "https://drserhatsen.substack.com/subscribe",
+          "rel": "noopener"
+        },
+        {
+          "anchor": "Tüm Yazıları Oku →",
+          "url": "https://drserhatsen.substack.com/archive",
+          "rel": "noopener"
+        }
+      ],
+      "schema_jsonld": {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://drserhatsen.com/yazilar#webpage",
+        "url": "https://drserhatsen.com/yazilar",
+        "name": "Yazılarım | Dr. Serhat Şen Substack Bülteni",
+        "description": "Kadın sağlığı, jinekolojik onkoloji ve kanıta dayalı tıp üzerine yazılarımı Substack bültenimde paylaşıyorum. Yeni yazılar için abone olabilirsiniz.",
+        "inLanguage": "tr-TR",
+        "isPartOf": {
+          "@id": "https://drserhatsen.com/#website"
+        },
+        "about": {
+          "@id": "https://drserhatsen.com/#physician"
+        },
+        "author": {
+          "@id": "https://drserhatsen.com/#physician"
+        },
+        "dateModified": "2026-05-11",
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Ana Sayfa",
+              "item": "https://drserhatsen.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Yazılarım",
+              "item": "https://drserhatsen.com/yazilar"
+            }
+          ]
+        },
+        "sameAs": "https://drserhatsen.substack.com"
+      },
+      "implementation_notes": [
+        "Bu bir yönlendirme (redirect) sayfası DEĞİL; Wix'te statik bir sayfa olarak oluşturulmalı — blog modülü kullanılmamalı.",
+        "Wix'te yeni Blank Page oluştur; Page URL = /yazilar.",
+        "SEO paneli: Title = 'Yazılarım | Dr. Serhat Şen Substack Bülteni', Description = meta_description değeri. Canonical = https://drserhatsen.com/yazilar (Wix native SEO canonical alanına gir — external canonical VERİLMEMELİ).",
+        "Substack URL'leri yeni sekmede açılacak şekilde bağlantılandır (target=_blank, rel=noopener).",
+        "İç bağlantılar (Hakkımda, İkinci Görüş, İletişim) aynı sekmede açılmalı.",
+        "Sayfada Substack embed widget'ı KULLANMA — sadece düz metin ve köprü bağlantılar. Substack'ın üçüncü taraf scriptleri Wix sayfasında yavaşlama ve izin sorunu yaratabilir.",
+        "OG Image: Mevcut site paylaşım görseli (static.wixstatic.com/media/9053c2_7b58e0fadcbe4d56b91dda669a6a08f8~mv2.png) kullanılabilir; Substack bülteni için özel bir kapak görseli tercih edilirse Wix Media'ya yükle.",
+        "Schema JSON-LD'yi Wix Advanced SEO > Head Tags alanına <script type='application/ld+json'> bloğu olarak ekle.",
+        "Substack ayarları için aşağıdaki checklist'e bak.",
+        "KVKK/GDPR uyum notu: Substack abone formu Substack tarafından sunulduğundan Wix sayfasında ayrı bir KVKK onayı kutusu gerekmez; ancak Substack'ın kendi abone akışında uyumu kontrol et.",
+        "Menü yapısı: Sayfayı ana menüye 'Yazılar' veya 'Bülten' başlığıyla ekle; Hakkımda ile İletişim arasına konumlandırılması önerilir.",
+        "Substack Settings Checklist: (1) Substack > Settings > Publication details'ta site URL olarak https://drserhatsen.com belirt. (2) Custom domain varsa drserhatsen.substack.com'u koru — birincil domain değil. (3) Publication name 'Dr. Serhat Şen — Düşünen Hekim' olarak ayarla. (4) Substack SEO description alanını Wix sayfasındaki meta açıklamasıyla hizala. (5) Substack > Settings > Email'de gönderen adı 'Dr. Serhat Şen' olarak düzenle. (6) İlk yazının URL'ini Google Search Console'a manuel gönder.",
+        "Uyum kontrol listesi: (1) Sayfada tıbbi tavsiye niteliğinde içerik yok — Substack'a yönlendirme, kanalı tanıtma. (2) 'Ücretsiz bülten' ibaresi doğru ve yanıltıcı değil. (3) 'Aboneliği istediğiniz zaman iptal edebilirsiniz' ibaresi doğru. (4) Substack abone sayfasında kişisel veri işleme şeffaflığını kontrol et. (5) Sayfa, haber bülteninizin pazarlama sayfasıdır; ilaç/tedavi reklamı niteliği taşımaz, REKLAM 2025 mevzuatı dışındadır."
+      ]
+    }
+  ],
+  "missing_pages": [
+    {
+      "slug": "endometriozis",
+      "reason": "Prompt içeriğinde bu sayfaya ait metin yer almamaktadır.",
+      "action_required": "İçerik hazırlandıktan sonra bu listeye eklenebilir."
+    },
+    {
+      "slug": "hpv-kolposkopi",
+      "reason": "Prompt içeriğinde bu sayfaya ait metin yer almamaktadır.",
+      "action_required": "İçerik hazırlandıktan sonra bu listeye eklenebilir."
+    },
+    {
+      "slug": "jinekolojik-onkoloji",
+      "reason": "Prompt içeriğinde bu sayfaya ait metin yer almamaktadır.",
+      "action_required": "İçerik hazırlandıktan sonra bu listeye eklenebilir."
+    }
+  ]
+}

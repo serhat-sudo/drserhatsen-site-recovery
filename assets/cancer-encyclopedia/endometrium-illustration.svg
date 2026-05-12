@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" fill="none" aria-label="Endometrium ve uterus katmanları anatomik illüstrasyonu">
+  <!-- Arka plan krem -->
+  <rect width="300" height="400" fill="#fdf9f4"/>
+  
+  <!-- Uterus dış profil -->
+  <path d="M150 60 C90 60 55 110 55 165 C55 225 80 270 105 295 C125 315 140 325 150 330 C160 325 175 315 195 295 C220 270 245 225 245 165 C245 110 210 60 150 60Z" 
+        stroke="#8B1538" stroke-width="2" fill="rgba(139,21,56,0.04)"/>
+  
+  <!-- Uterus iç kavite -->
+  <path d="M150 100 C125 100 108 125 108 155 C108 190 125 225 140 248 C144 255 147 260 150 263 C153 260 156 255 160 248 C175 225 192 190 192 155 C192 125 175 100 150 100Z" 
+        stroke="#8B1538" stroke-width="1.5" fill="rgba(139,21,56,0.06)"/>
+  
+  <!-- Endometrium katmanı (fonksiyonel) -->
+  <path d="M150 108 C130 108 118 128 118 153 C118 182 132 214 144 236 C147 242 149 246 150 248 C151 246 153 242 156 236 C168 214 182 182 182 153 C182 128 170 108 150 108Z" 
+        stroke="#8B1538" stroke-width="1" stroke-dasharray="4 3" fill="rgba(139,21,56,0.08)"/>
+  
+  <!-- Endometrium katmanı (bazal) -->
+  <path d="M150 120 C135 120 126 138 126 158 C126 180 137 207 147 225 C148.5 228 149.5 230 150 231 C150.5 230 151.5 228 153 225 C163 207 174 180 174 158 C174 138 165 120 150 120Z" 
+        stroke="#071c34" stroke-width="1.5" fill="rgba(7,28,52,0.06)"/>
+  
+  <!-- Miyometrium katman çizgisi (yatay) -->
+  <path d="M92 175 C110 178 130 180 150 180 C170 180 190 178 208 175" 
+        stroke="#8B1538" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+  <path d="M88 195 C108 199 130 201 150 201 C170 201 192 199 212 195" 
+        stroke="#8B1538" stroke-width="1" stroke-dasharray="3 3" opacity="0.4"/>
+  
+  <!-- Tuba uterina - sol -->
+  <path d="M88 145 C70 138 52 128 38 120 C30 116 24 115 22 118 C20 121 24 126 32 128 C40 130 50 132 58 136 C66 140 74 148 80 152" 
+        stroke="#8B1538" stroke-width="2" stroke-linecap="round"/>
+  <!-- Sol fimbria -->
+  <path d="M22 118 C19 112 15 108 12 105" stroke="#8B1538" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M22 118 C18 115 16 110 15 107" stroke="#8B1538" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M22 118 C20 122 18 118 16 114" stroke="#8B1538" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Tuba uterina - sağ -->
+  <path d="M212 145 C230 138 248 128 262 120 C270 116 276 115 278 118 C280 121 276 126 268 128 C260 130 250 132 242 136 C234 140 226 148 220 152" 
+        stroke="#8B1538" stroke-width="2" stroke-linecap="round"/>
+  <!-- Sağ fimbria -->
+  <path d="M278 118 C281 112 285 108 288 105" stroke="#8B1538" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M278 118 C282 115 284 110 285 107" stroke="#8B1538" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M278 118 C280 122 282 118 284 114" stroke="#8B1538" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Sol over -->
+  <ellipse cx="32" cy="122" rx="14" ry="10" stroke="#8B1538" stroke-width="1.5" fill="rgba(139,21,56,0.06)" transform="rotate(-20 32 122)"/>
+  
+  <!-- Sağ over -->
+  <ellipse cx="268" cy="122" rx="14" ry="10" stroke="#8B1538" stroke-width="1.5" fill="rgba(139,21,56,0.06)" transform="rotate(20 268 122)"/>
+  
+  <!-- Serviks -->
+  <path d="M135 263 C135 275 138 288 150 295 C162 288 165 275 165 263" 
+        stroke="#8B1538" stroke-width="1.5" fill="rgba(139,21,56,0.05)"/>
+  <!-- Serviks os -->
+  <ellipse cx="150" cy="268" rx="5" ry="3" stroke="#8B1538" stroke-width="1" fill="none"/>
+  
+  <!-- Katman etiketleri - ince yatay çizgi -->
+  <line x1="185" y1="132" x2="225" y2="132" stroke="#8B1538" stroke-width="0.8" opacity="0.5"/>
+  <line x1="185" y1="155" x2="225" y2="155" stroke="#071c34" stroke-width="0.8" opacity="0.5"/>
+  <line x1="185" y1="180" x2="225" y2="180" stroke="#8B1538" stroke-width="0.8" opacity="0.4"/>
+  
+  <!-- Katman metin etiketleri -->
+  <text x="228" y="136" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#8B1538" opacity="0.9">Endometrium</text>
+  <text x="228" y="159" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#071c34" opacity="0.9">Miyometrium</text>
+  <text x="228" y="184" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#8B1538" opacity="0.7">Parametrium</text>
+  
+  <!-- Alt etiket -->
+  <text x="150" y="358" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-style="italic" fill="#8B1538" letter-spacing="0.08em" opacity="0.85">ENDOMETRIUM</text>
+  <text x="150" y="373" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#071c34" letter-spacing="0.1em" opacity="0.6">RAHIM KANSERI</text>
+  
+  <!-- Dekoratif ince çerçeve -->
+  <rect x="12" y="12" width="276" height="376" rx="4" stroke="#8B1538" stroke-width="0.6" opacity="0.2"/>
+</svg>
