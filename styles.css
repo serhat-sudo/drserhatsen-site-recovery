@@ -1873,9 +1873,11 @@ body.is-page-mode .site-footer {
 
 .healthy-content-photo {
   position: relative;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 4 / 5;
   width: 100%;
-  align-self: center;
+  align-self: start;
+  position: sticky;
+  top: var(--space-7);
   overflow: hidden;
   border-radius: calc(var(--radius-xl) - var(--space-2));
   background: #fffaf2;
@@ -1889,9 +1891,7 @@ body.is-page-mode .site-footer {
   inset: 0;
   z-index: 0;
   background: var(--photo-bg) center / cover no-repeat;
-  filter: blur(24px);
-  opacity: 0.32;
-  transform: scale(1.12);
+  opacity: 0;
 }
 
 .healthy-content-photo img {
@@ -1900,7 +1900,7 @@ body.is-page-mode .site-footer {
   z-index: 1;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
 }
 
@@ -7348,7 +7348,9 @@ html[dir='rtl'] .about-letter-copy p {
   }
 
   .healthy-content-photo {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 1 / 1;
+    width: min(100%, 480px);
+    margin-inline: auto;
     min-height: 0;
   }
 
@@ -7523,7 +7525,7 @@ html[dir='rtl'] .about-letter-copy p {
   }
 
   .healthy-content-photo {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 4 / 5;
     min-height: 0;
   }
 
