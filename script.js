@@ -7763,6 +7763,11 @@ function renderGuideCards() {
 
     if (category === 'saglikli-hamilelik' && items.some((item) => item.parentSlug)) {
       const reader = shell.querySelector('[data-guide-reader]');
+      const pregnancyGroupVisuals = {
+        'saglikli-hamilelik-zemin': { src: 'assets/canva/canva-pregnancy-peach.png', alt: 'Gebelik öncesi hazırlık ve hekim danışmanlığı görseli' },
+        'doguma-hazirlik-son-trimester': { src: 'assets/user-hamilelik-yeni.webp', alt: 'Üçüncü trimester ve doğuma hazırlık görseli' },
+        'gecis-sureci-postpartum': { src: 'assets/healthy-woman-baby.webp', alt: 'Doğum sonrası anne ve bebek geçiş süreci görseli' },
+      };
       const groupMap = new Map();
       items.forEach((item) => {
         const slug = item.parentSlug || 'hamilelik-yolu';
@@ -7772,6 +7777,7 @@ function renderGuideCards() {
             order: item.parentOrder || groupMap.size + 1,
             title: item.parentTitle || item.category,
             description: item.parentDescription || item.description,
+            visual: pregnancyGroupVisuals[slug] || null,
             items: [],
           });
         }
