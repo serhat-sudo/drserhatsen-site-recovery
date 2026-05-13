@@ -49,7 +49,13 @@ const translations = {
     healthyContentKicker: 'Sağlıklı Yaşam Rehberi',
     healthyContentTitle: '7’den 77’ye Jinekoloji',
     healthyContentText:
-      'Kadın sağlığını yaşamın her döneminde; beden farkındalığı, gündelik alışkanlıklar, mahremiyet, yaş alma ve koruyucu hekimlik başlıklarıyla ele alan sağlıklı yaşam rehberi.',
+      'Bu bölümde kadın sağlığını yalnızca muayene odasında değil; aile, beden farkındalığı, gündelik alışkanlıklar, yaş alma ve mahremiyet duygusuyla birlikte ele alan kısa yaşam notları yer alacak.',
+    healthyThemeCards: [
+      ['01', 'Aile ve güven', 'Kadın sağlığı kararlarında destek sistemi, mahremiyet ve doğru bilgi aynı anda önemlidir.'],
+      ['02', 'Beden farkındalığı', 'Adet düzeni, ağrı, akıntı, cinsel sağlık ve yaşam evreleri kişinin kendi bedenini tanımasıyla daha anlaşılır olur.'],
+      ['03', 'Yaşama ritmi', 'Uyku, hareket, beslenme ve stres yönetimi; gebelikten menopoza kadar kadın sağlığının görünmeyen altyapısını oluşturur.'],
+      ['04', 'Soru sorma hakkı', 'İyi sağlık iletişimi, hastanın merak ettiği şeyi utanmadan sorabilmesi ve yanıtı anlaşılır biçimde alabilmesidir.'],
+    ],
     healthyContentCards: [
       ['20’ler', 'İlk yetişkinlik: beden farkındalığı, cilt, döngü, mahremiyet ve sağlıklı alışkanlıkların temeli.'],
       ['30’lar', 'Şekillenme: doğurganlık planı, kariyer-yaşam dengesi, cilt, cinsellik ve bedeni yeniden okuma.'],
@@ -377,7 +383,13 @@ const translations = {
     healthyContentKicker: 'Healthy Living Guide',
     healthyContentTitle: 'Gynecology 7 to 77',
     healthyContentText:
-      'A healthy living guide that follows gynecologic health through every stage of life: body awareness, daily habits, privacy, aging and preventive care.',
+      'This section will feature short life notes that approach women’s health not only inside the exam room, but through family, body awareness, daily habits, aging and a sense of privacy.',
+    healthyThemeCards: [
+      ['01', 'Family and trust', 'In women’s health decisions, the support system, privacy and accurate information matter at the same time.'],
+      ['02', 'Body awareness', 'Cycle, pain, discharge, sexual health and life phases become clearer as a person learns to read her own body.'],
+      ['03', 'Rhythm of life', 'Sleep, movement, nutrition and stress management form the invisible infrastructure of women’s health from pregnancy to menopause.'],
+      ['04', 'The right to ask', 'Good health communication is the patient’s ability to ask what she wonders without shame and receive an understandable answer.'],
+    ],
     healthyContentCards: [
       ['20s', 'Early adulthood: body awareness, skin, cycle literacy, intimacy and the foundations of healthy habits.'],
       ['30s', 'Formation: fertility planning, career-life balance, skin, sexuality and learning to read the body again.'],
@@ -901,7 +913,13 @@ translations.it = {
   healthyContentKicker: 'Guida alla vita sana',
   healthyContentTitle: 'Ginecologia dai 7 ai 77 anni',
   healthyContentText:
-    'Una guida alla vita sana che segue la salute ginecologica in ogni fase: consapevolezza del corpo, abitudini quotidiane, riservatezza, invecchiamento e prevenzione.',
+    'In questa sezione troverai brevi note di vita che affrontano la salute della donna non solo nello studio medico, ma attraverso famiglia, consapevolezza del corpo, abitudini quotidiane, invecchiamento e senso di riservatezza.',
+  healthyThemeCards: [
+    ['01', 'Famiglia e fiducia', 'Nelle decisioni sulla salute femminile contano insieme la rete di sostegno, la riservatezza e l’informazione corretta.'],
+    ['02', 'Consapevolezza del corpo', 'Ciclo, dolore, perdite, salute sessuale e fasi della vita diventano più chiari quando si impara a leggere il proprio corpo.'],
+    ['03', 'Ritmo della vita', 'Sonno, movimento, alimentazione e gestione dello stress sono l’infrastruttura invisibile della salute femminile, dalla gravidanza alla menopausa.'],
+    ['04', 'Il diritto di chiedere', 'Una buona comunicazione sanitaria è la possibilità di chiedere ciò che si vuole sapere senza imbarazzo e ricevere una risposta comprensibile.'],
+  ],
   healthyContentCards: [
     ['Anni 20', 'Prima età adulta: consapevolezza del corpo, pelle, ciclo, intimità e basi delle abitudini sane.'],
     ['Anni 30', 'Definizione: progetto di fertilità, equilibrio vita-lavoro, pelle, sessualità e nuovo ascolto del corpo.'],
@@ -1227,7 +1245,13 @@ translations.de = {
   healthyContentKicker: 'Leitfaden für gesundes Leben',
   healthyContentTitle: 'Gynäkologie von 7 bis 77',
   healthyContentText:
-    'Ein Leitfaden für gesundes Leben, der gynäkologische Gesundheit in jeder Lebensphase begleitet: Körperbewusstsein, Alltag, Intimität, Älterwerden und Vorsorge.',
+    'In diesem Bereich erscheinen kurze Lebensnotizen, die die Gesundheit der Frau nicht nur im Sprechzimmer betrachten, sondern in Familie, Körperbewusstsein, Alltagsgewohnheiten, Älterwerden und einem Gefühl von Privatsphäre.',
+  healthyThemeCards: [
+    ['01', 'Familie und Vertrauen', 'Bei Entscheidungen zur Frauengesundheit zählen Unterstützungssystem, Privatsphäre und korrekte Information gleichermaßen.'],
+    ['02', 'Körperbewusstsein', 'Zyklus, Schmerz, Ausfluss, sexuelle Gesundheit und Lebensphasen werden klarer, wenn man den eigenen Körper lesen lernt.'],
+    ['03', 'Lebensrhythmus', 'Schlaf, Bewegung, Ernährung und Stressbewältigung bilden die unsichtbare Grundlage der Frauengesundheit von der Schwangerschaft bis zur Menopause.'],
+    ['04', 'Das Recht zu fragen', 'Gute Gesundheitskommunikation heißt: ohne Scham fragen können und eine verständliche Antwort erhalten.'],
+  ],
   healthyContentCards: [
     ['20er', 'Frühes Erwachsenenalter: Körperbewusstsein, Haut, Zykluswissen, Intimität und gesunde Routinen.'],
     ['30er', 'Prägung: Fertilitätsplanung, Balance zwischen Beruf und Leben, Haut, Sexualität und neues Körperlesen.'],
@@ -1553,7 +1577,13 @@ translations.fr = {
   healthyContentKicker: 'Guide de vie saine',
   healthyContentTitle: 'Gynécologie de 7 à 77 ans',
   healthyContentText:
-    'Un guide de vie saine qui accompagne la santé gynécologique à chaque étape : conscience du corps, habitudes quotidiennes, intimité, avancée en âge et prévention.',
+    'Cette section accueillera de courtes notes de vie qui abordent la santé de la femme non seulement dans le cabinet, mais à travers la famille, la conscience du corps, les habitudes quotidiennes, l’avancée en âge et le sentiment d’intimité.',
+  healthyThemeCards: [
+    ['01', 'Famille et confiance', 'Dans les décisions de santé féminine, le système de soutien, l’intimité et l’information juste comptent ensemble.'],
+    ['02', 'Conscience du corps', 'Cycle, douleur, pertes, santé sexuelle et étapes de la vie deviennent plus clairs quand on apprend à lire son propre corps.'],
+    ['03', 'Rythme de vie', 'Sommeil, mouvement, alimentation et gestion du stress sont l’infrastructure invisible de la santé féminine, de la grossesse à la ménopause.'],
+    ['04', 'Le droit de demander', 'Une bonne communication en santé, c’est pouvoir demander ce que l’on se demande sans gêne et recevoir une réponse compréhensible.'],
+  ],
   healthyContentCards: [
     ['Années 20', 'Début de l’âge adulte : conscience du corps, peau, cycle, intimité et bases des habitudes saines.'],
     ['Années 30', 'Construction : projet de fertilité, équilibre vie-travail, peau, sexualité et nouvelle écoute du corps.'],
@@ -1881,7 +1911,13 @@ translations.ar = {
   healthyContentKicker: 'دليل الحياة الصحية',
   healthyContentTitle: 'طب النساء من ٧ إلى ٧٧',
   healthyContentText:
-    'دليل حياة صحية يرافق صحة المرأة النسائية في كل مرحلة: وعي الجسد، العادات اليومية، الخصوصية، التقدم في العمر والوقاية.',
+    'سيضم هذا القسم ملاحظات حياتية قصيرة تتناول صحة المرأة ليس داخل غرفة الفحص فحسب، بل عبر الأسرة ووعي الجسد والعادات اليومية والتقدم في العمر والإحساس بالخصوصية.',
+  healthyThemeCards: [
+    ['٠١', 'الأسرة والثقة', 'في قرارات صحة المرأة، يهم في الوقت نفسه نظام الدعم، والخصوصية، والمعلومة الصحيحة.'],
+    ['٠٢', 'وعي الجسد', 'تصبح الدورة والألم والإفرازات والصحة الجنسية ومراحل الحياة أوضح حين تتعلم المرأة قراءة جسدها.'],
+    ['٠٣', 'إيقاع الحياة', 'النوم والحركة والتغذية وإدارة التوتر هي البنية الخفية لصحة المرأة من الحمل حتى سن اليأس.'],
+    ['٠٤', 'الحق في السؤال', 'التواصل الصحي الجيّد هو أن تتمكن المريضة من السؤال عمّا تتساءل بلا حرج وأن تتلقى جوابًا مفهومًا.'],
+  ],
   healthyContentCards: [
     ['العشرينات', 'بداية الرشد: وعي الجسد، البشرة، فهم الدورة، الخصوصية وأسس العادات الصحية.'],
     ['الثلاثينات', 'مرحلة التشكّل: التخطيط للخصوبة، توازن العمل والحياة، البشرة، الجنس وقراءة الجسد من جديد.'],
@@ -2015,7 +2051,13 @@ translations.ru = {
   healthyContentKicker: 'Гид по здоровому образу жизни',
   healthyContentTitle: 'Гинекология от 7 до 77',
   healthyContentText:
-    'Гид по здоровому образу жизни, который сопровождает гинекологическое здоровье на каждом этапе: телесная осознанность, повседневные привычки, приватность, возрастные изменения и профилактика.',
+    'В этом разделе появятся короткие жизненные заметки, рассматривающие женское здоровье не только в кабинете врача, но через семью, телесную осознанность, повседневные привычки, возрастные изменения и чувство приватности.',
+  healthyThemeCards: [
+    ['01', 'Семья и доверие', 'В решениях о женском здоровье одновременно важны система поддержки, приватность и достоверная информация.'],
+    ['02', 'Телесная осознанность', 'Цикл, боль, выделения, сексуальное здоровье и возрастные этапы становятся понятнее, когда женщина учится читать собственное тело.'],
+    ['03', 'Ритм жизни', 'Сон, движение, питание и управление стрессом — это невидимая основа женского здоровья от беременности до менопаузы.'],
+    ['04', 'Право спрашивать', 'Хорошая коммуникация в медицине — это возможность пациентки без стеснения спросить о том, что её волнует, и получить понятный ответ.'],
+  ],
   healthyContentCards: [
     ['20-е', 'Ранний взрослый возраст: знание тела, кожа, цикл, интимность и основы здоровых привычек.'],
     ['30-е', 'Формирование: планирование фертильности, баланс работы и жизни, кожа, сексуальность и новое понимание тела.'],
@@ -6145,6 +6187,23 @@ function scrollHealthyContentIntoView() {
   document.getElementById('yasam-rehberi')?.scrollIntoView({ block: 'start', behavior: 'smooth' });
 }
 
+function renderHealthyThemeCards(language) {
+  const t = translations[language] || translations.tr;
+  const cards = t.healthyThemeCards || translations.tr.healthyThemeCards;
+  if (!cards) return;
+  const articles = document.querySelectorAll('[data-healthy-themes-grid] [data-healthy-theme-card]');
+  articles.forEach((article, index) => {
+    const item = cards[index];
+    if (!item) return;
+    const span = article.querySelector('span');
+    const h3 = article.querySelector('h3');
+    const p = article.querySelector('p');
+    if (span) span.textContent = item[0];
+    if (h3) h3.textContent = item[1];
+    if (p) p.textContent = item[2];
+  });
+}
+
 function renderHealthyDecadeCards(language) {
   const t = translations[language] || translations.tr;
   const labels = getHealthyContentUi(language);
@@ -8826,6 +8885,7 @@ function applyLanguage(language) {
   setText('[data-healthy-content-kicker]', t.healthyContentKicker);
   setText('[data-healthy-content-title]', t.healthyContentTitle);
   setText('[data-healthy-content-text]', t.healthyContentText);
+  renderHealthyThemeCards(language);
   renderHealthyContent(language);
 
   setText('#sertifikalar .section-kicker', t.certificatesKicker);
