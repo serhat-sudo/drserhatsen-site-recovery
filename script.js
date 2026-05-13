@@ -5737,15 +5737,15 @@ function renderLifeDaisy(index = 0) {
 
 const lifeDecadeVisuals = {
   '20s': {
-    src: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?fm=jpg&q=82&w=1400&auto=format&fit=crop',
+    src: 'assets/life-decades/life-20s-awareness.webp',
     alt: '20’li yaşlarda beden farkındalığı ve sağlıklı yaşamı anlatan gerçek kadın portresi',
   },
   '30s': {
-    src: 'https://images.unsplash.com/photo-1511988617509-a57c8a288659?fm=jpg&q=82&w=1400&auto=format&fit=crop',
+    src: 'assets/life-decades/life-30s-planning.webp',
     alt: '30’lu yaşlarda yaşam dengesi ve üretkenliği anlatan gerçek fotoğraf',
   },
   '40s': {
-    src: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?fm=jpg&q=82&w=1400&auto=format&fit=crop',
+    src: 'assets/life-decades/life-40s-transition.webp',
     alt: '40’lı yaşlarda geçiş dönemini ve güçlü kadın sağlığını anlatan gerçek portre',
   },
   '50s': {
