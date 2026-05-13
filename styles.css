@@ -1887,9 +1887,9 @@ body.is-page-mode .site-footer {
   inset: -8%;
   z-index: 0;
   background: var(--photo-bg) center / cover no-repeat;
-  filter: blur(4px);
-  opacity: 0.08;
-  transform: scale(1.02);
+  filter: blur(20px);
+  opacity: 0.52;
+  transform: scale(1.08);
 }
 
 .healthy-content-photo img {
@@ -1898,8 +1898,8 @@ body.is-page-mode .site-footer {
   z-index: 1;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center 42%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .healthy-content-copy {
