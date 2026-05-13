@@ -1873,7 +1873,9 @@ body.is-page-mode .site-footer {
 
 .healthy-content-photo {
   position: relative;
-  min-height: min(58vw, 620px);
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  align-self: center;
   overflow: hidden;
   border-radius: calc(var(--radius-xl) - var(--space-2));
   background: #fffaf2;
@@ -1884,12 +1886,12 @@ body.is-page-mode .site-footer {
 .healthy-content-photo::before {
   content: '';
   position: absolute;
-  inset: -8%;
+  inset: 0;
   z-index: 0;
   background: var(--photo-bg) center / cover no-repeat;
-  filter: blur(20px);
-  opacity: 0.52;
-  transform: scale(1.08);
+  filter: blur(24px);
+  opacity: 0.32;
+  transform: scale(1.12);
 }
 
 .healthy-content-photo img {
@@ -7346,7 +7348,8 @@ html[dir='rtl'] .about-letter-copy p {
   }
 
   .healthy-content-photo {
-    min-height: 360px;
+    aspect-ratio: 4 / 3;
+    min-height: 0;
   }
 
   .healthy-content-cards {
@@ -7520,7 +7523,8 @@ html[dir='rtl'] .about-letter-copy p {
   }
 
   .healthy-content-photo {
-    min-height: clamp(500px, 62vw, 640px);
+    aspect-ratio: 4 / 3;
+    min-height: 0;
   }
 
   .healthy-content-copy {
