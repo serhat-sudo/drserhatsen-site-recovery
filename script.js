@@ -7295,8 +7295,22 @@ function cancerCardVisual(item = {}, mainCard = {}, seed = 0) {
   return pickKeywordCardVisual(visualSeed, 'cancer', seed || (numericVisualSeed(visualSeed) - 1));
 }
 
+const cancerMainCoverByKey = {
+  '1': { src: 'assets/cancer-encyclopedia/cancer-colposcopy.webp', alt: 'Kolposkopi ve serviks taraması — rahim ağzı kanseri görseli' },
+  '2': { src: 'assets/cancer-encyclopedia/cancer-ultrasound-biopsy.webp', alt: 'Pelvik ultrason ve endometrial örnekleme — endometrium kanseri görseli' },
+  '3': { src: 'assets/canva/canva-ovarian-cancer.png', alt: 'Over kanseri farkındalığı ve değerlendirme görseli' },
+  '4': { src: 'assets/canva/canva-neutral-medical.png', alt: 'Nötr jinekolojik konsültasyon görseli — vulva kanseri' },
+  '5': { src: 'assets/clinical-assessment.webp', alt: 'Klinik jinekolojik değerlendirme — vajina kanseri' },
+  '6': { src: 'assets/cancer-encyclopedia/cancer-screen-review.webp', alt: 'Genetik danışma ve aile öyküsü değerlendirmesi — kanser genetiği' },
+  '7': { src: 'assets/canva/canva-medical-pills.png', alt: 'Hedefli tedavi ve akıllı ilaç görseli — moleküler onkoloji' },
+  '8': { src: 'assets/canva/canva-pink-october.png', alt: 'Önleme ve farkındalık görseli — kanser karşıtı yaşam' },
+  '9': { src: 'assets/life-70plus-wellness.jpg', alt: 'Sağ kalım ve aktif yaşam görseli — kanserle yaşam' },
+};
+
 function cancerMainCardVisualMarkup(item = {}) {
-  const visual = cancerCardVisual(item, {}, numericVisualSeed(`${item.key || ''} ${item.number || ''} ${item.title || ''}`) - 1);
+  const explicit = cancerMainCoverByKey[String(item.key || '')];
+  const fromItem = item.image ? { src: item.image, alt: item.imageAlt || item.title || '' } : null;
+  const visual = explicit || fromItem || cancerCardVisual(item, {}, numericVisualSeed(`${item.key || ''} ${item.number || ''} ${item.title || ''}`) - 1);
   return cardVisualMarkup(visual, 'cancer-main-card-visual');
 }
 
